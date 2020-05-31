@@ -2,7 +2,7 @@
 
 <br/>
 
-### Looking at the historical spread between the U.S. Corporate Bond Index Effective Yield and the U.S. 10 year treasury. 
+Looking at the historical spread between the U.S. Corporate Bond Index Effective Yield and the U.S. 10 year treasury. 
 
 <br/>
 
