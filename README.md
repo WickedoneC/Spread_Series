@@ -10,15 +10,19 @@ Given the historical 10 year U.S. treasury rate (going back to '96) and the yiel
 
 <br/>
 
-## EDA and Correlations
+## EDA and Correlations in a Historical Context
 
 <br/>
 
-Given the historical data, we can see that during the last two recessions (early 2000s, GFC), the sread spiked, displayed volatility, and then suddenly decreased. We can see that the GFC displayed a significantly higher spread, as expected.
+Given the historical data, we can see that during the last two recessions (early 2000s, GFC), the spread spiked, displayed volatility, and then suddenly decreased. We can see that the GFC displayed a significantly higher spread, as expected.
+
+As corporates were sold off and money pushed into Treasuries for both safety and as a result of quantitative easing, the spread widened, conveying the riskiness of the market at the time. The GFC saw a higher number of defaults as a result of over-leveraging and liquidity issues, experienced by both borrowers and investors. 
 
 <br/>
 
 ## What affects the spread?
+
+The spread can be viewed as a certain measure of riskiness. A narrower spread indicates lower corporate yields, resulting from safer borrowers and investor demand. As 
 
 <br/>
 
