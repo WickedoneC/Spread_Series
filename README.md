@@ -10,23 +10,28 @@ Given the historical 10 year U.S. treasury rate (going back to '96) and the yiel
 
 <br/>
 
+The data begins from 12-31-1996, the first data on the corporate bond index, and runs throught 4-20-2020. An in-sample test was done to measure the effectiveness of the model, ranging from 1-02-2020 through 4-20-2020. An out-of-sample test was then run, ranging from 4-21-2020 through 7-06-2020, to measure the model's real world application.
+
 ## EDA and Correlations in a Historical Context
 
 <br/>
 
-Given the historical data, we can see that during the last two recessions (early 2000s, GFC), the spread spiked, displayed volatility, and then suddenly decreased. We can see that the GFC displayed a significantly higher spread, as expected.
+Given the historical data, we can see that during the last two recessions (early 2000s, GFC), and the first several months of the COVID pandemc, the spread spiked, displayed volatility, and then quickly decreased. In response to the crash of the tech bubble, the Fed lowered the fed funds rate in order to stimlate the economy. In response to the 2008 and COVID recessions, the fed implemented quantitative easing/stimulation to try and keep the economy running. 
 
-As corporates were sold off and money pushed into Treasuries for both safety and as a result of quantitative easing, the spread widened, conveying the riskiness of the market at the time. The GFC saw a higher number of defaults as a result of over-leveraging and liquidity issues, experienced by both borrowers and investors. 
+We can see that the GFC displayed a significantly higher spread, as expected. This was followed by a historically high percentage of defaults. As corporates were sold off and money pushed into Treasuries for both safety and as a result of quantitative easing, the spread widened, conveying the riskiness of the market at the time. The GFC saw a higher number of defaults as a result of over-leveraging and liquidity issues, experienced by both borrowers and investors. 
+
+In the first half of 2020, the spread spiked as the economy was shut down, resulting in a large market sell-off, and a flight to safety by investors. The shut-down caused major concerns for corporates, many of whom are expected to default. During this period the spread spiked but never crossed 4.0, reaching 'only' as high as 3.92, and began decreasing quickly as quantitative easing and stimulation measures took effect. Although the yield on the corporate bond index spiked, it doesn't take show the full impact to corporates. BAML's Corporate Bond Index is made up of investment grade securities. During the pandemic, there were a high number of investment grade issuers who were downgraded to below investment grade, so called 'fallen angels'. Although the yields on these corporates rise in response to their increased riskienss, these same corporates are dropped from the investment grade index.
 
 <br/>
 
 ## What affects the spread?
 
-The spread can be viewed as a certain measure of riskiness. A narrower spread indicates lower corporate yields, resulting from safer borrowers and investor demand. As 
+The spread can be viewed as a certain measure of riskiness. A narrower spread indicates lower corporate yields, resulting from safer borrowers and investor demand. As corporate bonds begin to appear riskier on a large scale, often as part of a larger economic downturn, they are sold off by investors, who then put their capital into treasuries. 
 
 <br/>
 
 ## Modeling current and future periods
+
 
 <br/>
 
