@@ -22,8 +22,11 @@ Given the historical data, we can see that during the last two recessions (early
 
 We can see that the GFC displayed a significantly higher spread, as expected. This was followed by a historically high percentage of defaults. As corporates were sold off and money pushed into Treasuries for both safety and as a result of quantitative easing, the spread widened, conveying the riskiness of the market at the time. The GFC saw a higher number of defaults as a result of over-leveraging and liquidity issues, experienced by both borrowers and investors. 
 
+[place image]
+
 In the first half of 2020, the spread spiked as the economy was shut down, resulting in a large market sell-off, and a flight to safety by investors. The shut-down caused major concerns for corporates, many of whom are expected to default. During this period the spread spiked but never crossed 4.0, reaching 'only' as high as 3.92, and began decreasing quickly as quantitative easing and stimulation measures took effect. Although the yield on the corporate bond index spiked, it doesn't show the full impact to corporates. BAML's Corporate Bond Index is made up of investment grade securities. During the pandemic, there was a large number of investment grade issuers who were downgraded to below investment grade, so called 'fallen angels'. Although the yields on these corporates rise in response to their increased riskienss, these same corporates are dropped from the investment grade index.
 
+[place image]
 <br/>
 
 ## What affects the spread?
@@ -44,11 +47,16 @@ Unfortunately, the model was unable to produce meaningful results. This may indi
 
 Following these spikes in the spread, levels quickly decreased, but were then followed by smaller spikes and increased volatility. We can also see that while the pandemic caused a spike in the spread, looking at the rolling mean shows that both the 2000 and 2008 crashes had higher means than the current level. This can be useful as the credit markets look to deal with the continued effects of the pandemic and its (socio)economic impact. 
 
+[place image]
+
 <br/>
 
 ## How can we improve the model?
 <br/>
 The model was run on the actual spread between the two components. Modeling the components individually and then taking the spread may produce more accurate results. Modeling the spread by month may also produce a higher level of accuracy as it picks up on a broader trend, but would have less data points to work with.
+
+[place image]
+
 <br/>
 
 Index Code - BAMLC0A0CMEY
