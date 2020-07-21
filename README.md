@@ -2,7 +2,7 @@
 
 <br/>
 
-Looking at the historical spread between the U.S. Corporate Bond Index Effective Yield and the U.S. 10 year treasury. 
+Looking at the historical spread between the U.S. Corporate Bond Index Effective Yield (BAMLC0A0CMEY) and the U.S. 10 year treasury. 
 
 <br/>
 
@@ -57,6 +57,6 @@ The model was run on the actual spread between the two components. Modeling the 
 
 [place image]
 
-<br/>
+Note - In regards to the multiple testing problem, while there were multiple tests performed, the test with the best MSE still performed poorly on real-world data. As a result, the remaining models weren't mentioned. Their results are available for exploration in the notebooks.
 
-Index Code - BAMLC0A0CMEY
+<br/>
