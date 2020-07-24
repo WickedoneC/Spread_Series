@@ -67,15 +67,17 @@ Following these spikes in the spread, levels quickly decreased, but were then fo
 <br/>
 The model was run on the actual spread between the two components. Modeling the components individually and then taking the spread may produce more accurate results. Modeling the spread by month may also produce a higher level of accuracy as it picks up on a broader trend, but would have less data points to work with.
 
+<br/>
+
 [53 day forecast]
 ![53 day forecast](Images/53_days_out.png)
 
 <br/>
 
-[Actual Spread]
+[Spread from April through July]
 ![Actual Spread](Images/April_thru_July.png)
 
-[Spread through July]
+[Historical Spread]
 ![Spread through July](Images/Thru_July.png)
 
 Note - In regards to the multiple testing problem, while there were multiple tests performed, the test with the best MSE still performed poorly on real-world data. As a result, the remaining models weren't mentioned. Their results are available for exploration in the notebooks.
