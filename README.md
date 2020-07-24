@@ -20,6 +20,8 @@ Given the historical data, we can see that during the last two recessions (early
 
 [place image]
 
+![Spread through 4-20-2020](/Users/wickedbear/Coding/Projects/Spread_Series/Images/Thru 4-20.png)
+
 We can see that the GFC displayed a significantly higher spread, as expected. This was followed by a historically high percentage of defaults. As corporates were sold off and money pushed into Treasuries for both safety and as a result of quantitative easing, the spread widened, conveying the riskiness of the market at the time. The GFC saw a higher number of defaults as a result of over-leveraging and liquidity issues, experienced by both borrowers and investors. 
 
 [place image]
