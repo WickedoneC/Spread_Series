@@ -37,6 +37,8 @@ In the first half of 2020, the spread spiked as the economy was shut down, resul
 
 <br/>
 
+At the same time, the Fed has promised to buy and continue to buy in the bond market, allowing more capital to flow into the market. The Fed has also dropped the effective fed funds rate to close to zero, and will likely hold at the those levels for some time. This has led to increased borrowing activity as firms look to take advantage of low rate while they try to stay afloat. These actions are helping prop up the market, with the increased demand pushing up prices and narrowing the spread.
+
 ## What affects the spread?
 
 The spread can be viewed as a certain measure of riskiness. A narrower spread indicates lower corporate yields, or higher Treasury yields, resulting from stronger borrowers and investor demand. As corporate bonds begin to appear riskier on a large scale, often as part of a larger economic downturn, they are sold off by investors, who then put their capital into treasuries or cash instruments. 
@@ -79,6 +81,16 @@ The model was run on the actual spread between the two components. Modeling the 
 
 [Historical Spread]
 ![Spread through July](Images/Thru_July.png)
+
+<br/>
+
+## Looking to the Future
+
+<br/>
+It's hard enough to evaluate the true riskiness of the (investment grade) credit market in normal market conditions. Given the current pandemic and market disruptions, it has become significantly more difficult. Although the spread itself narrowed, there's siginificant quantitative easing pushing capital into the market, investment grade issuers being downgraded to below investment grade, rates near historic lows and increased borrowing, and continued market uncertainty surround the pandemic and national events. Although the narrowing spread may indicate decreased riskiness on the surface, it's only one number by itself. Looking at the larger picture, the credit market appears to hold significant risk. The true effects of the current situation and economic actions won't be know for some time, and only time will tell if the perceived risk was as siginifcant as it currently appears.
+
+<br/>
+<br/>
 
 Note - In regards to the multiple testing problem, while there were multiple tests performed, the test with the best MSE still performed poorly on real-world data. As a result, the remaining models weren't mentioned. Their results are available for exploration in the notebooks.
 
