@@ -28,8 +28,6 @@ We can see that the GFC displayed a significantly higher spread than the tech bu
 
 In the first half of 2020, the spread spiked as the economy was shut down, resulting in a large market sell-off and a flight to safety by investors. The shut-down caused major concerns for corporates, many of whom are expected to default. During this period the spread spiked but never crossed 4.0, reaching 'only' as high as 3.92, and began decreasing quickly as quantitative easing and stimulation measures took effect. Although the yield on the corporate bond index spiked, it doesn't convey the full impact to corporates. BAML's Corporate Bond Index is made up of investment grade securities. During the pandemic, there have been a large number of investment grade issuers who have been downgraded to below investment grade, so called 'fallen angels'. Although the yields on these corporates rise in response to their increased riskiness, these same corporates are dropped from the investment grade index.
 
-
-
 <br/>
 
 [Rolling statistics since the GFC]
