@@ -77,6 +77,7 @@ Following these spikes in the spread, levels quickly decreased, but were then fo
 The model was run on the actual spread between the two components. Modeling the components individually and then taking the spread may produce more accurate results. Modeling the spread by month may also produce a higher level of accuracy as it picks up on a broader trend, but would have less data points to work with. 
 
 <br/>
+<br/>
 
 [53 day forecast]
 ![53 day forecast](Images/53_days_out.png)
@@ -99,11 +100,11 @@ The model was run on the actual spread between the two components. Modeling the 
 It's hard enough to evaluate the true riskiness of the credit market in normal market conditions. Given the current pandemic and market disruptions, it has become significantly more difficult. Although the spread itself narrowed, there's siginificant quantitative easing pushing capital into the market, investment grade issuers being downgraded to below investment grade, rates near historic lows and increased borrowing, and continued market uncertainty surrounding the pandemic and national events. Although the narrowing spread may indicate decreased riskiness on the surface, it's only one number by itself. Looking at the broader picture, the credit market appears to hold significant risk. The true effects of the current situation and economic actions won't be know for some time, and only time will tell if the perceived risk was as siginifcant as it currently appears.
 
 <br/>
-
+<br/>
 ### For Reference
 
 <br/>
-Historical look at components of the spread
+Historical look at components of the spread:
 
 <br/>
 
@@ -116,11 +117,14 @@ Historical look at components of the spread
 ![Components 2020](Images/Comps_2020.png)
 
 <br/>
+<br/>
+<br/>
 
 Note - In regards to the multiple testing problem, while there were multiple tests performed, the test with the best MSE still performed poorly on real-world data. As a result, the remaining models weren't mentioned. Their results are available for exploration in the repository.
 
 <br/>
 Resources:
+<br/>
 <br/>
 -https://www.quandl.com/
 <br/>
