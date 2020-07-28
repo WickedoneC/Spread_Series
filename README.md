@@ -10,7 +10,7 @@ Given the historical 10 year U.S. treasury rate (going back to '96) and the yiel
 
 <br/>
 
-The data begins from 12-31-1996, the first date on the corporate bond index, and runs through 4-20-2020. An in-sample test was done to measure the effectiveness of the model, ranging from 1-02-2020 through 4-20-2020. An out-of-sample test was then run, ranging from 4-21-2020 through 7-06-2020, to measure the model's real world application.
+The data begins on 12-31-1996, the first date on the corporate bond index, and runs through 4-20-2020. An in-sample test was done to measure the effectiveness of the model, ranging from 1-02-2020 through 4-20-2020. An out-of-sample test was then run, ranging from 4-21-2020 through 7-06-2020, to measure the model's real world application.
 
 ## Historical Context
 
@@ -124,3 +124,4 @@ Resources:
 -CFA Institute Research
 <br/>
 
+[Notebook for Exploration](https://github.com/WickedoneC/Spread_Series/blob/master/Notebooks/Final/Full_Run.ipynb)
