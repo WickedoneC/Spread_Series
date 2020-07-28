@@ -4,17 +4,15 @@
 
 Looking at the historical spread between the U.S. Corporate Bond Index Effective Yield (BAMLC0A0CMEY) and the U.S. 10 year treasury. 
 
-<br/>
 
 Given the historical 10 year U.S. treasury rate (going back to '96) and the yield on BAML's US Corporate Bond Index, what can we learn from the history of the spread between the two, and how can we model the spread for future periods?
 
-<br/>
 
 The data begins on 12-31-1996, the first date on the corporate bond index, and runs through 4-20-2020. An in-sample test was done to measure the effectiveness of the model, ranging from 1-02-2020 through 4-20-2020. An out-of-sample test was then run, ranging from 4-21-2020 through 7-06-2020, to measure the model's real world application.
 
-## Historical Context
-
 <br/>
+
+## Historical Context
 
 Given the historical data, we can see that during the last two recessions (early 2000s, GFC), and the first several months of the COVID pandemic, the spread spiked, displayed volatility, and then quickly decreased. In response to the crash of the tech bubble, the Fed lowered the fed funds rate in order to stimlate the economy. In response to the 2008 and COVID recessions, the fed implemented quantitative easing/stimulation to help keep the market running while addressing capital and liquidity concerns. 
 
@@ -33,9 +31,9 @@ In the first half of 2020, the spread spiked as the economy was shut down, resul
 
 At the same time, the Fed has promised to buy and continue to buy in the bond market, allowing more capital to flow into the market while providing demand. The Fed has also dropped the effective fed funds rate to close to zero, and will likely hold at the those levels for some time. This has led to increased borrowing activity as firms look to take advantage of low rates while they try to stay afloat. These actions are helping prop up the market, with the increased demand pushing up prices and narrowing the spread.
 
-## What affects the spread?
-
 <br/>
+
+## What affects the spread?
 
 The spread can be viewed as a relative measure of riskiness. A narrower spread indicates lower corporate yields, or higher Treasury yields, resulting from stronger borrowers and investor demand. As corporate bonds begin to appear riskier on a large scale, often as part of a larger economic downturn, they are sold off by investors, who then put their capital into treasuries or cash instruments. 
 
@@ -46,13 +44,11 @@ The spread can be viewed as a relative measure of riskiness. A narrower spread i
 
 ## Modeling current and future periods
 
-<br/>
-
 AR, ARMA, SARIMAX, and FB Prophet models were run. However, SARIMAX produced the best results in terms of MSE. Although the model worked well for the in-sample test, it worked poorly on the out-of-sample, real-world data. The forecast predicted very minimal changes, decreasing by only .02 in the first two months. The model was unable to pick up on the rate of decrease.
 
-## What does the spread tell us?
-
 <br/>
+
+## What does the spread tell us?
 
 Unfortunately, the model was unable to produce meaningful results. This may indicate the inability or the difficulty of the spread to be accurately modeled, or a need for a more robust model. However, by simply looking at the history of the spread and the periods following higher than usual levels, insight can be gained into the future movement of the spread and the riskiness of the credit market. 
 <br/>
@@ -71,7 +67,7 @@ Following these spikes in the spread, levels quickly decreased, but were then fo
 <br/>
 
 ## How can we improve the model?
-<br/>
+
 The model was run on the actual spread between the two components. Modeling the components individually and then taking the spread may produce more accurate results. Modeling the spread by month may also produce a higher level of accuracy as it picks up on a broader trend, but would have less data points to work with. 
 
 <br/>
@@ -94,10 +90,8 @@ The model was run on the actual spread between the two components. Modeling the 
 
 ## Looking to the Future
 
-<br/>
 It's hard enough to evaluate the true riskiness of the credit market in normal market conditions. Given the current pandemic and market disruptions, it has become significantly more difficult. Although the spread itself narrowed, there's siginificant quantitative easing pushing capital into the market, investment grade issuers being downgraded to below investment grade, rates near historic lows and increased borrowing, and continued market uncertainty surrounding the pandemic and national events. Although the narrowing spread may indicate decreased riskiness on the surface, it's only one number by itself. Looking at the broader picture, the credit market appears to hold significant risk. The true effects of the current situation and economic actions won't be know for some time, and only time will tell if the perceived risk was as siginifcant as it currently appears.
 
-<br/>
 <br/>
 
 ### For Reference
@@ -106,7 +100,6 @@ It's hard enough to evaluate the true riskiness of the credit market in normal m
 
 Historical look at components of the spread:
 
-<br/>
 
 [Historical Components through 7-24-2020]
 ![Historical Components](Images/Components.png)
@@ -118,7 +111,7 @@ Historical look at components of the spread:
 
 <br/>
 <br/>
-<br/>
+
 
 Note - In regards to the multiple testing problem, while there were multiple tests performed, the test with the best MSE still performed poorly on real-world data. As a result, the remaining models weren't mentioned. Their results are available for exploration in the repository.
 
