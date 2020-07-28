@@ -28,15 +28,14 @@ We can see that the GFC displayed a significantly higher spread than the tech bu
 
 In the first half of 2020, the spread spiked as the economy was shut down, resulting in a large market sell-off and a flight to safety by investors. The shut-down caused major concerns for corporates, many of whom are expected to default. During this period the spread spiked but never crossed 4.0, reaching 'only' as high as 3.92, and began decreasing quickly as quantitative easing and stimulation measures took effect. Although the yield on the corporate bond index spiked, it doesn't convey the full impact to corporates. BAML's Corporate Bond Index is made up of investment grade securities. During the pandemic, there have been a large number of investment grade issuers who have been downgraded to below investment grade, so called 'fallen angels'. Although the yields on these corporates rise in response to their increased riskiness, these same corporates are dropped from the investment grade index.
 
-<br/>
 [Rolling statistics since the GFC]
 ![Rolling statistics since the GFC](Images/GFC_thru_Present.png)
-
-<br/>
 
 At the same time, the Fed has promised to buy and continue to buy in the bond market, allowing more capital to flow into the market while providing demand. The Fed has also dropped the effective fed funds rate to close to zero, and will likely hold at the those levels for some time. This has led to increased borrowing activity as firms look to take advantage of low rates while they try to stay afloat. These actions are helping prop up the market, with the increased demand pushing up prices and narrowing the spread.
 
 ## What affects the spread?
+
+<br/>
 
 The spread can be viewed as a relative measure of riskiness. A narrower spread indicates lower corporate yields, or higher Treasury yields, resulting from stronger borrowers and investor demand. As corporate bonds begin to appear riskier on a large scale, often as part of a larger economic downturn, they are sold off by investors, who then put their capital into treasuries or cash instruments. 
 
@@ -46,13 +45,15 @@ The spread can be viewed as a relative measure of riskiness. A narrower spread i
 <br/>
 
 ## Modeling current and future periods
+
 <br/>
+
 AR, ARMA, SARIMAX, and FB Prophet models were run. However, SARIMAX produced the best results in terms of MSE. Although the model worked well for the in-sample test, it worked poorly on the out-of-sample, real-world data. The forecast predicted very minimal changes, decreasing by only .02 in the first two months. The model was unable to pick up on the rate of decrease.
 
+## What does the spread tell us?
+
 <br/>
 
-## What does the spread tell us?
-<br/>
 Unfortunately, the model was unable to produce meaningful results. This may indicate the inability or the difficulty of the spread to be accurately modeled, or a need for a more robust model. However, by simply looking at the history of the spread and the periods following higher than usual levels, insight can be gained into the future movement of the spread and the riskiness of the credit market. 
 <br/>
 Following these spikes in the spread, levels quickly decreased, but were then followed by smaller spikes and increased volatility. We can also see that while the pandemic caused a spike in the spread, looking at the rolling mean shows that both the 2000 and 2008 crashes had higher means than the current level. This can be useful as the credit markets look to deal with the continued effects of the pandemic and its (socio)economic impact. 
