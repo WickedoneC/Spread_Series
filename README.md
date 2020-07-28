@@ -61,6 +61,7 @@ Unfortunately, the model was unable to produce meaningful results. This may indi
 Following these spikes in the spread, levels quickly decreased, but were then followed by smaller spikes and increased volatility. We can also see that while the pandemic caused a spike in the spread, looking at the rolling mean shows that both the 2000 and 2008 crashes had higher means than the current level. This can be useful as the credit markets look to deal with the continued effects of the pandemic and its (socio)economic impact. 
 
 <br/>
+<br/>
 
 [Rolling statistics through 4-20-2020]
 ![Rolling statistics through 4-20-2020](Images/Rolling.png)
