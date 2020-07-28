@@ -26,7 +26,7 @@ We can see that the GFC displayed a significantly higher spread than the tech bu
 [Spread movement during the GFC]
 ![Spread movement during the GFC](Images/GFC.png)
 
-In the first half of 2020, the spread spiked as the economy was shut down, resulting in a large market sell-off, and a flight to safety by investors. The shut-down caused major concerns for corporates, many of whom are expected to default. During this period the spread spiked but never crossed 4.0, reaching 'only' as high as 3.92, and began decreasing quickly as quantitative easing and stimulation measures took effect. Although the yield on the corporate bond index spiked, it doesn't convey the full impact to corporates. BAML's Corporate Bond Index is made up of investment grade securities. During the pandemic, there have been a large number of investment grade issuers who have been downgraded to below investment grade, so called 'fallen angels'. Although the yields on these corporates rise in response to their increased riskiness, these same corporates are dropped from the investment grade index.
+In the first half of 2020, the spread spiked as the economy was shut down, resulting in a large market sell-off and a flight to safety by investors. The shut-down caused major concerns for corporates, many of whom are expected to default. During this period the spread spiked but never crossed 4.0, reaching 'only' as high as 3.92, and began decreasing quickly as quantitative easing and stimulation measures took effect. Although the yield on the corporate bond index spiked, it doesn't convey the full impact to corporates. BAML's Corporate Bond Index is made up of investment grade securities. During the pandemic, there have been a large number of investment grade issuers who have been downgraded to below investment grade, so called 'fallen angels'. Although the yields on these corporates rise in response to their increased riskiness, these same corporates are dropped from the investment grade index.
 
 
 
@@ -57,15 +57,17 @@ AR, ARMA, SARIMAX, and FB Prophet models were run. However, SARIMAX produced the
 ## What does the spread tell us?
 <br/>
 Unfortunately, the model was unable to produce meaningful results. This may indicate the inability or the difficulty of the spread to be accurately modeled, or a need for a more robust model. However, by simply looking at the history of the spread and the periods following higher than usual levels, insight can be gained into the future movement of the spread and the riskiness of the credit market. 
-
+<br/>
 Following these spikes in the spread, levels quickly decreased, but were then followed by smaller spikes and increased volatility. We can also see that while the pandemic caused a spike in the spread, looking at the rolling mean shows that both the 2000 and 2008 crashes had higher means than the current level. This can be useful as the credit markets look to deal with the continued effects of the pandemic and its (socio)economic impact. 
+
+<br/>
 
 [Rolling statistics through 4-20-2020]
 ![Rolling statistics through 4-20-2020](Images/Rolling.png)
 <br/>
 <br/>
 [Rolling statistics through 7-24-2020]
-![Rolling statistics through 7-24-2020](Images/Thru_7-26.png)
+![Rolling statistics through 7-24-2020](Images/Thru_7_24.png)
 
 <br/>
 
@@ -82,6 +84,8 @@ The model was run on the actual spread between the two components. Modeling the 
 
 [Spread from April through July]
 ![Actual Spread](Images/April_thru_July.png)
+
+<br/>
 
 [Historical Spread]
 ![Spread through July](Images/Thru_July.png)
@@ -130,5 +134,6 @@ Resources:
 -CFA Research Institute
 <br/>
 
+<br/>
 
 [Notebook for Exploration](https://github.com/WickedoneC/Spread_Series/blob/master/Notebooks/Final/Full_Run.ipynb)
