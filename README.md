@@ -10,7 +10,7 @@ Given the historical 10 year U.S. treasury rate (going back to '96) and the yiel
 
 The data begins on 12-31-1996, the first date on the corporate bond index, and runs through 4-20-2020. An in-sample test was done to measure the effectiveness of the model, ranging from 1-02-2020 through 4-20-2020. An out-of-sample test was then run, ranging from 4-21-2020 through 7-06-2020, to measure the model's real world application.
 
-<br/>
+
 
 ## Historical Context
 
@@ -31,7 +31,7 @@ In the first half of 2020, the spread spiked as the economy was shut down, resul
 
 At the same time, the Fed has promised to buy and continue to buy in the bond market, allowing more capital to flow into the market while providing demand. The Fed has also dropped the effective fed funds rate to close to zero, and will likely hold at the those levels for some time. This has led to increased borrowing activity as firms look to take advantage of low rates while they try to stay afloat. These actions are helping prop up the market, with the increased demand pushing up prices and narrowing the spread.
 
-<br/>
+
 
 ## What affects the spread?
 
@@ -40,13 +40,13 @@ The spread can be viewed as a relative measure of riskiness. A narrower spread i
 [Trend vs Actual]
 ![Trend vs Actual](Images/Trend_v_Original.png)
 
-<br/>
+
 
 ## Modeling current and future periods
 
 AR, ARMA, SARIMAX, and FB Prophet models were run. However, SARIMAX produced the best results in terms of MSE. Although the model worked well for the in-sample test, it worked poorly on the out-of-sample, real-world data. The forecast predicted very minimal changes, decreasing by only .02 in the first two months. The model was unable to pick up on the rate of decrease.
 
-<br/>
+
 
 ## What does the spread tell us?
 
@@ -54,24 +54,18 @@ Unfortunately, the model was unable to produce meaningful results. This may indi
 <br/>
 Following these spikes in the spread, levels quickly decreased, but were then followed by smaller spikes and increased volatility. We can also see that while the pandemic caused a spike in the spread, looking at the rolling mean shows that both the 2000 and 2008 crashes had higher means than the current level. This can be useful as the credit markets look to deal with the continued effects of the pandemic and its (socio)economic impact. 
 
-<br/>
-<br/>
-
 [Rolling statistics through 4-20-2020]
 ![Rolling statistics through 4-20-2020](Images/Rolling.png)
 <br/>
-<br/>
+
 [Rolling statistics through 7-24-2020]
 ![Rolling statistics through 7-24-2020](Images/Thru_7_24.png)
 
-<br/>
+
 
 ## How can we improve the model?
 
 The model was run on the actual spread between the two components. Modeling the components individually and then taking the spread may produce more accurate results. Modeling the spread by month may also produce a higher level of accuracy as it picks up on a broader trend, but would have less data points to work with. 
-
-<br/>
-<br/>
 
 [53 day forecast]
 ![53 day forecast](Images/53_days_out.png)
@@ -86,7 +80,7 @@ The model was run on the actual spread between the two components. Modeling the 
 [Historical Spread]
 ![Spread through July](Images/Thru_July.png)
 
-<br/>
+
 
 ## Looking to the Future
 
