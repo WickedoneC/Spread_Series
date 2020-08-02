@@ -14,7 +14,7 @@ The data begins on 12-31-1996, the first date on the corporate bond index, and r
 
 ## Historical Context
 
-Given the historical data, we can see that during the last two recessions (early 2000s, GFC), and the first several months of the COVID pandemic, the spread spiked, displayed volatility, and then quickly decreased. In response to the crash of the tech bubble, the Fed lowered the fed funds rate in order to stimlate the economy. In response to the 2008 and COVID recessions, the fed implemented quantitative easing/stimulation to help keep the market running while addressing capital and liquidity concerns. 
+Given the historical data, we can see that during the last two recessions (early 2000s, GFC), and the first several months of the COVID pandemic, the spread spiked, displayed volatility, and then quickly decreased. In response to the crash of the tech bubble, the Fed lowered the fed funds rate in order to stimulate the economy. In response to the 2008 and COVID recessions, the fed implemented quantitative easing/stimulation to help keep the market running while addressing capital and liquidity concerns. 
 
 [Spread through 4-20-2020]
 ![Spread through 4-20-2020](Images/Thru_4-20.png)
